@@ -9,8 +9,8 @@ import java.util.List;
 import javax.inject.Named;
 import javax.enterprise.context.RequestScoped;
 
-//@Named(value = "bean")
-@Named(value = "bean2")
+@Named(value = "bean")
+//@Named(value = "bean2")
 @RequestScoped
 public class Bean {
 
@@ -34,6 +34,6 @@ public class Bean {
     }
     
     public String afficher() {
-        return "affichage_4?nb="+ nombre + "&amp;faces-redirect=true";
+        return "affichage__1?nb="+ nombre + "&amp;faces-redirect=true";
     }
 }
